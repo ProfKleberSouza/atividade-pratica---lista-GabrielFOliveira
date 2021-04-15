@@ -1,10 +1,11 @@
-#include "lista.h"
+#include "lista.h" 
 
 Celula *new_celula(){
   Celula *tmp = (Celula*) malloc(sizeof(Celula));
   tmp->prox = NULL;
   return tmp;
 }
+
 
 void new_lista(Lista *l){
 
@@ -14,7 +15,3 @@ void new_lista(Lista *l){
   l->fim = nova;
   l->tam = 0;
 }
-
-
-
-
